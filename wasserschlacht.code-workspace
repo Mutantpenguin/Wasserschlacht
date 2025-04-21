@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"[typst]": {
+			"editor.formatOnSave": true
+		},
+		"tinymist.formatterMode": "typstyle",
+		"tinymist.fontPaths": [
+			"${workspaceFolder}/fonts/"
+		],
+		"tinymist.systemFonts": false,
+		"tinymist.formatterPrintWidth": 200
+	},
+	"extensions": {
+		"recommendations": [
+			"exodiusstudios.comment-anchors",
+			"myriad-dreamin.tinymist"
+		]
+	}
+}
