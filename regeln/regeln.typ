@@ -91,9 +91,10 @@ Jeder Mitspieler braucht:
 - ein sechsseitiger Würfel, auch "W6" genannt
 - eine Spielkarte um seinen Namen aufzuschreiben, die Gegenstände zu sammeln und einzukreisen, wie naß man bereits geworden ist.
   #align(
+    center,
     image(
       "karte.svg",
-      width: 70%,
+      width: 50%,
     ),
   )
 
