@@ -167,4 +167,54 @@ TODO
 
 === Werfen
 
-== Gegenstände
+= Die Ausrüstung
+
+Es gibt Gegenstände, die für jede Spielfigur vor Beginn des Spiels ausgesucht werden oder während des Spiel gefunden werden können.
+
+Auf der Spielkarte sind dafür 4 Felder vorhanden:
+- 1 in orange für einen Start-Gegenstand
+- 3 in blau für Fund-Gegenstände
+
+== Start-Gegenstände
+
+Jede Spielfigur startet mit genau einem dieser Gegenstände der von ihrem Spieler frei ausgewählt werden darf.
+
+=== Regenschirm
+
+Die Spielfigur wird immer 1 schlechter getroffen.
+
+=== Zielfernrohr
+
+Die Spielfigur trifft immer um 1 besser (nicht bei Wasserbomben).
+
+=== Turbo-Schuhe
+
+Die Spielfigur kann sich immer 15cm bewegen.
+
+== Fund-Gegenstände
+
+Diese Gegenstände können zufällig auf dem Spielfeld gefunden werden.
+
+Wenn eine Spielfigur sich über einen Gegenstand bewegt kann sie ihn sofort aufheben.
+Sind alle Felder voll, kann kein weiterer Gegenstand mehr aufgehoben werden!
+
+Spielfiguren dürfen aber jederzeit Gegenstände fallen lassen.
+
+=== Handtuch
+
+Bei Benutzung eines Handtuchs darfst du einen Wassertropfen abtrocknen.
+
+Das funktioniert automatisch wenn die Spielfigur getroffen wird, während sie ein Handtuch besitzt.
+
+=== Energy-Drink
+
+Wenn die Spielfigur einen Energy-Drink trinkt, darf sie sich einmal extra bewegen.
+
+=== Bonbon
+
+Wenn die Spielfigur ein Bonbon isst, darf sie einmal mehr schießen (oder auch eine Wasserbombe werfen, falls sie eine hat).
+
+=== Wasserbombe
+
+Funktioniert wie das Schießen mit der Wasserpistole, sie trifft aber schon bei 2+.
+Dafür fliegt sie auch nur höchstens 10cm weit.
