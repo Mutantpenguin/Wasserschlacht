@@ -69,7 +69,10 @@
   scope: "parent",
   clearance: 2em,
 )[
-  #image("../logo.svg")
+  #image(
+    "../logo.svg",
+    width: 70%,
+  )
 
   Version #version
 ]
