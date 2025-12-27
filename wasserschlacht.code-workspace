@@ -1,4 +1,11 @@
 {
+	"extensions": {
+		"recommendations": [
+			"exodiusstudios.comment-anchors",
+			"myriad-dreamin.tinymist",
+			"vivaxy.vscode-conventional-commits",
+		]
+	},
 	"folders": [
 		{
 			"path": "."
@@ -8,19 +15,12 @@
 		"[typst]": {
 			"editor.formatOnSave": true
 		},
-		"tinymist.formatterMode": "typstyle",
+		"conventionalCommits.promptScopes": false,
 		"tinymist.fontPaths": [
 			"${workspaceFolder}/fonts/"
 		],
-		"tinymist.systemFonts": false,
+		"tinymist.formatterMode": "typstyle",
 		"tinymist.formatterPrintWidth": 200,
-		"conventionalCommits.promptScopes": false,
-	},
-	"extensions": {
-		"recommendations": [
-			"exodiusstudios.comment-anchors",
-			"myriad-dreamin.tinymist",
-			"vivaxy.vscode-conventional-commits",
-		]
+		"tinymist.systemFonts": false
 	}
 }
