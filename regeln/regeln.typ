@@ -97,10 +97,20 @@ Wer klitschenass ist muss nach Hause gehen und hat verloren!
 
 = Vorbereitung
 
-Jeder Mitspieler braucht:
-- eine Spielfigur seiner Wahl, die ungefähr 3cm bis 5cm groß sein sollte
-- ein sechsseitiger Würfel, auch "W6" genannt
-- eine Spielkarte um seinen Namen aufzuschreiben, die Gegenstände zu sammeln und einzukreisen, wie naß man bereits geworden ist.
+- Ihr müsst 2 bis 4 Spieler sein.
+
+- Ihr braucht für jeden Spieler Spielfiguren die ungefähr 3cm bis 5cm groß sein sollten.
+  Lasst Eurer Fantasie freien Lauf und nehmt alles was Euch in die Hände kommt:
+  LEGO, DUPLO, Transformers, Dinosaurier oder Pokemon, jedes Spielzeug ist in Ordnung!
+
+- Einigt Euch darauf, mit wie vielen Spielfiguren Ihr spielen möchtet.
+  Jeder braucht mindestens 1 Spielfigur und höchstens 4 Spielfiguren.
+  Achtet darauf, dass jeder Mitspieler genau gleich viele Spielfiguren hat.
+  Wenn Ihr zum ersten mal spielt solltet Ihr jeder nur 1 Spielfigur nehmen.
+
+- Ihr braucht für jeden Mitspieler einen sechsseitigen Würfel der auch "W6" genannt wird.
+
+- Für jede Eurer Spielfiguren benötigt Ihr noch eine Spielkarte um ihren Namen aufzuschreiben, die Gegenstände zu sammeln und einzukreisen, wie naß sie bereits geworden ist.
   #align(
     center,
     image(
@@ -109,12 +119,13 @@ Jeder Mitspieler braucht:
     ),
   )
 
-Außerdem wird noch ein Maßstab mit Unterteilungen für 5cm, 10cm und 15cm benötigt.
-Frag hierzu am besten deine Eltern.
+- Außerdem wird noch ein Maßstab mit Unterteilungen für 5cm, 10cm und 15cm benötigt.
+  Am besten funktioniert es, wenn jeder Mitspieler einen hat.
 
+= Spielfläche
 Als Spielfläche wird ein Tisch (oder Fußboden) benötigt, der ungefähr 1m \* 1m groß sein sollte.
 Außerdem muss auf der Spielfläche ganz viel Gelände aufgebaut werden.
-Dies kann extra hierfür gebastelt, oder einfach aus Lego oder Duplo gebaut werden.
+Dies kann extra hierfür gebastelt, oder einfach aus LEGO oder DUPLO gebaut werden.
 Je mehr und je bunter, umso besser.
 
 So könnte dein Spielfeld aussehen:
