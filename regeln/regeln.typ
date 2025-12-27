@@ -13,14 +13,13 @@
     font: heading_font,
     size: 22pt,
     weight: "bold",
-    fill: orange,
-    stroke: black + 0.5pt,
+    fill: rgb("#2b779dff"),
   )
   block(
     [
       #smallcaps(it.body)
-      #v(5pt, weak: true)
-      #line(length: 100%)
+      #v(7pt, weak: true)
+      #line(length: 100%, stroke: 3pt + gradient.linear(rgb("#2b779dff"), white))
     ],
     below: 1em,
   )
@@ -71,8 +70,6 @@
   clearance: 2em,
 )[
   #image("../logo.svg")
-
-  #line(length: 20%)
 
   Version #version
 ]
