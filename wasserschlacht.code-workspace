@@ -13,12 +13,14 @@
 			"${workspaceFolder}/fonts/"
 		],
 		"tinymist.systemFonts": false,
-		"tinymist.formatterPrintWidth": 200
+		"tinymist.formatterPrintWidth": 200,
+		"conventionalCommits.promptScopes": false,
 	},
 	"extensions": {
 		"recommendations": [
 			"exodiusstudios.comment-anchors",
-			"myriad-dreamin.tinymist"
+			"myriad-dreamin.tinymist",
+			"vivaxy.vscode-conventional-commits",
 		]
 	}
 }
