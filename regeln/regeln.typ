@@ -19,7 +19,14 @@
     [
       #smallcaps(it.body)
       #v(7pt, weak: true)
-      #line(length: 100%, stroke: 3pt + gradient.linear(rgb("#2b779dff"), white))
+      #line(
+        length: 100%,
+        stroke: (
+          paint: gradient.linear(rgb("#2b779dff"), white),
+          thickness: 3pt,
+          cap: "round",
+        ),
+      )
     ],
     below: 1em,
   )
