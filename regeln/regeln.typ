@@ -37,8 +37,23 @@
     font: heading_font,
     size: 12pt,
     weight: "bold",
+    fill: rgb("#2b779dff"),
   )
-  block(smallcaps(it.body))
+  block(
+    [
+      #smallcaps(it.body)
+      #v(4pt, weak: true)
+      #line(
+        length: 100%,
+        stroke: (
+          paint: gradient.linear(rgb("#2b779dff"), white),
+          thickness: 1pt,
+          cap: "round",
+        ),
+      )
+    ],
+    below: 0.5em,
+  )
 }
 
 #show heading.where(level: 3): it => {
