@@ -231,17 +231,29 @@ Auf der Spielkarte sind dafür 4 Felder vorhanden:
 
 Jede Spielfigur startet mit genau einem dieser Gegenstände der von ihrem Spieler frei ausgewählt werden darf.
 
-=== Regenschirm
-
+#start_item(
+  "Regenschirm",
+  "token/regenschirm.svg",
+  [
 Die Spielfigur wird immer 1 schlechter getroffen.
+  ],
+)
 
-=== Zielfernrohr
-
+#start_item(
+  "Zielfernrohr",
+  "token/zielfernrohr.svg",
+  [
 Die Spielfigur trifft immer um 1 besser (nicht bei Wasserbomben).
+  ],
+)
 
-=== Turbo-Schuhe
-
+#start_item(
+  "Turbo-Schuhe",
+  "token/turbo.svg",
+  [
 Die Spielfigur kann sich immer 15cm bewegen.
+  ],
+)
 
 == Fund-Gegenstände
 
@@ -252,21 +264,37 @@ Sind alle Felder voll, kann kein weiterer Gegenstand mehr aufgehoben werden!
 
 Spielfiguren dürfen aber jederzeit Gegenstände fallen lassen.
 
-=== Handtuch
-
+#find_item(
+  "Handtuch",
+  "token/handtuch.svg",
+  [
 Bei Benutzung eines Handtuchs darfst du einen Wassertropfen abtrocknen.
 
 Das funktioniert automatisch wenn die Spielfigur getroffen wird, während sie ein Handtuch besitzt.
+  ],
+)
 
-=== Energy-Drink
-
+#find_item(
+  "Energy-Drink",
+  "token/energy.svg",
+  [
 Wenn die Spielfigur einen Energy-Drink trinkt, darf sie sich einmal extra bewegen.
+  ],
+)
 
-=== Bonbon
-
+#find_item(
+  "Bonbon",
+  "token/bonbon.svg",
+  [
 Wenn die Spielfigur ein Bonbon isst, darf sie einmal mehr schießen (oder auch eine Wasserbombe werfen, falls sie eine hat).
+  ],
+)
 
-=== Wasserbombe
-
+#find_item(
+  "Wasserbombe",
+  "token/wasserbombe.svg",
+  [
 Funktioniert wie das Schießen mit der Wasserpistole, sie trifft aber schon bei 2+.
 Dafür fliegt sie auch nur höchstens 10cm weit.
+  ],
+)
