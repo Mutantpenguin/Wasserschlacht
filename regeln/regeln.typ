@@ -55,7 +55,7 @@
 }
 
 #let find_item(name, icon_name, content) = {
-  _item(rgb("#2b779dff"), name, icon_name, content)
+  _item(rgb("#4cb9d4"), name, icon_name, content)
 }
 
 #let heading_font = "Coiny"
