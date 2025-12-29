@@ -229,7 +229,9 @@ Auf der Spielkarte sind dafür 4 Felder vorhanden:
 
 == Start-Gegenstände
 
-Jede Spielfigur startet mit genau einem dieser Gegenstände der von ihrem Spieler frei ausgewählt werden darf.
+Jede Spielfigur startet mit genau einem dieser Gegenstände der von ihrem Spieler ausgewählt wird.
+
+Start-Gegenstände werden nicht verbraucht und gelten für das gesamte Spiel.
 
 #start_item(
   "Regenschirm",
@@ -257,12 +259,13 @@ Die Spielfigur kann sich immer 15cm bewegen.
 
 == Fund-Gegenstände
 
-Diese Gegenstände können zufällig auf dem Spielfeld gefunden werden.
+Diese Gegenstände können auf dem Spielfeld gefunden werden.
 
 Wenn eine Spielfigur sich über einen Gegenstand bewegt kann sie ihn sofort aufheben.
-Sind alle Felder voll, kann kein weiterer Gegenstand mehr aufgehoben werden!
+Sind alle blauen Felder voll, kann kein weiterer Gegenstand mehr aufgehoben werden!
+Fund-Gegenstände dürfen jederzeit auch einfach fallen gelassen werden.
 
-Spielfiguren dürfen aber jederzeit Gegenstände fallen lassen.
+Wenn ein Fund-Gegenstand benutzt wird ist er vebraucht und muss beiseite gelegt werden.
 
 #find_item(
   "Handtuch",
