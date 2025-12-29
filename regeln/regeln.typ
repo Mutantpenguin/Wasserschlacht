@@ -6,6 +6,58 @@
   linebreaks: "optimized",
 )
 
+#let item_font = "Coiny"
+
+#let _item(color, name, icon_name, content) = {
+  block(
+    stroke: black,
+    radius: 3pt,
+    breakable: false,
+    clip: true,
+    [
+      // header
+      #table(
+        columns: (1fr, 20%),
+        stroke: (x, y) => (
+          left: if x > 0 { black },
+          bottom: black,
+        ),
+        rows: 3em,
+        fill: color,
+        align: alignment.center,
+        table.cell(
+          align: horizon,
+          text(
+            name,
+            font: item_font,
+            size: 1.5em,
+          ),
+        ),
+        table.cell(
+          align: horizon,
+          inset: 0.2em,
+          image(icon_name),
+        ),
+      )
+
+      #v(0pt, weak: true)
+
+      #block(
+        inset: 10pt,
+        content,
+      )
+    ],
+  )
+}
+
+#let start_item(name, icon_name, content) = {
+  _item(rgb("#f7b02a"), name, icon_name, content)
+}
+
+#let find_item(name, icon_name, content) = {
+  _item(rgb("#2b779dff"), name, icon_name, content)
+}
+
 #let heading_font = "Coiny"
 
 #show heading.where(level: 1): it => {
