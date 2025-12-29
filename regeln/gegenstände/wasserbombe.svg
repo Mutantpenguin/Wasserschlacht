@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15mm"
+   height="15mm"
+   viewBox="0 0 15 15"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="wasserbombe.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="8.4737936"
+     inkscape:cx="26.611458"
+     inkscape:cy="31.803937"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g32" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g32"
+       transform="matrix(0.97147952,0,0,0.96976363,-24.777587,-36.891201)"
+       style="stroke-width:1.03027">
+      <path
+         id="path31"
+         style="fill:#4cb9d4;fill-opacity:1;stroke:#000000;stroke-width:0.636294;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:normal"
+         d="m 27.578206,39.572344 c -0.06288,0.04121 -0.06207,0.126621 0.03472,0.294572 0.318353,0.552378 1.060519,0.734645 1.934416,1.171177 -0.08476,4.019005 -1.19289,7.393942 0.12362,9.67824 1.365885,2.369969 4.394137,3.180104 6.764106,1.80938 2.369969,-1.370723 3.184307,-4.403303 1.818422,-6.773273 -1.319187,-2.28894 -4.581181,-2.885083 -8.304004,-4.944655 0.06124,-0.932978 0.269284,-1.716705 -0.04683,-2.265187 -0.364409,-0.632292 -0.39365,0.50281 -1.025942,0.86851 -0.464338,0.26856 -1.124673,0.04733 -1.298517,0.161236 z" />
+    </g>
+  </g>
+</svg>

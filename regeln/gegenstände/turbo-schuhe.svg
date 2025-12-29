@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15mm"
+   height="15mm"
+   viewBox="0 0 15 15"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="turbo-schuhe.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="5.9918769"
+     inkscape:cx="44.143096"
+     inkscape:cy="39.636996"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2"
+       transform="matrix(1.3976792,0,0,1.4113439,-0.94363795,-1.907676)"
+       style="stroke-width:0.712">
+      <g
+         id="g3"
+         transform="matrix(0.90864479,0.90086935,-0.91752835,0.90967689,6.0764184,-6.5892163)"
+         style="stroke-width:0.553764">
+        <g
+           id="g4"
+           transform="matrix(0.99319603,-1.6440637e-5,-1.6763679e-5,0.99319603,0.02108163,0.0598406)"
+           style="stroke-width:0.557558">
+          <path
+             style="fill:#000000;stroke:#000000;stroke-width:0.167267;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             d="m 2.2800971,7.6197443 0.7798271,0.3735271 8.0879838,-0.0092 V 8.4212076 C 8.455542,8.5259536 5.6370202,8.5837383 2.989671,8.2274494 2.3860125,8.1462071 2.462943,8.1057278 2.2079564,7.9563734 Z"
+             id="path1"
+             sodipodi:nodetypes="ccccscc" />
+          <path
+             style="fill:#d40000;stroke:#000000;stroke-width:0.278779;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+             d="M 2.9364407,6.8884926 6.3696476,5.9280777 7.352141,4.8020742 h 0.209746 c 0.08023,0.04486 0.027402,0.1617354 0.1261835,0.1960781 0.6307988,0.2193063 1.9157854,0.2238135 2.6248945,-0.00264 0.127158,-0.040608 0.02211,-0.1420651 0.121887,-0.1934342 h 0.162829 l 0.424291,3.1911972 c 0.05638,0.173697 -8.116211,0.5891001 -8.6385243,-0.3265787 z"
+             id="path2"
+             sodipodi:nodetypes="ccccssccccc" />
+          <path
+             id="rect2"
+             style="fill:#ffff00;stroke-width:0.167267;stroke-linecap:round;stroke-linejoin:round"
+             d="M 8.4750895,5.5140435 7.9976705,6.4268361 8.2879465,6.9743478 7.1168575,7.8665701 7.5942765,6.9537777 7.3039995,6.406266 Z"
+             sodipodi:nodetypes="ccccccc" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

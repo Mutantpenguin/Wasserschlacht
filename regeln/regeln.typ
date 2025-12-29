@@ -233,7 +233,7 @@ Jede Spielfigur startet mit genau einem dieser Gegenstände der von ihrem Spiele
 
 #start_item(
   "Regenschirm",
-  "token/regenschirm.svg",
+  "gegenstände/regenschirm.svg",
   [
 Die Spielfigur wird immer 1 schlechter getroffen.
   ],
@@ -241,7 +241,7 @@ Die Spielfigur wird immer 1 schlechter getroffen.
 
 #start_item(
   "Zielfernrohr",
-  "token/zielfernrohr.svg",
+  "gegenstände/zielfernrohr.svg",
   [
 Die Spielfigur trifft immer um 1 besser (nicht bei Wasserbomben).
   ],
@@ -249,7 +249,7 @@ Die Spielfigur trifft immer um 1 besser (nicht bei Wasserbomben).
 
 #start_item(
   "Turbo-Schuhe",
-  "token/turbo.svg",
+  "gegenstände/turbo-schuhe.svg",
   [
 Die Spielfigur kann sich immer 15cm bewegen.
   ],
@@ -266,7 +266,7 @@ Spielfiguren dürfen aber jederzeit Gegenstände fallen lassen.
 
 #find_item(
   "Handtuch",
-  "token/handtuch.svg",
+  "gegenstände/handtuch.svg",
   [
 Bei Benutzung eines Handtuchs darfst du einen Wassertropfen abtrocknen.
 
@@ -276,7 +276,7 @@ Das funktioniert automatisch wenn die Spielfigur getroffen wird, während sie ei
 
 #find_item(
   "Energy-Drink",
-  "token/energy.svg",
+  "gegenstände/energy-drink.svg",
   [
 Wenn die Spielfigur einen Energy-Drink trinkt, darf sie sich einmal extra bewegen.
   ],
@@ -284,7 +284,7 @@ Wenn die Spielfigur einen Energy-Drink trinkt, darf sie sich einmal extra bewege
 
 #find_item(
   "Bonbon",
-  "token/bonbon.svg",
+  "gegenstände/bonbon.svg",
   [
 Wenn die Spielfigur ein Bonbon isst, darf sie einmal mehr schießen (oder auch eine Wasserbombe werfen, falls sie eine hat).
   ],
@@ -292,7 +292,7 @@ Wenn die Spielfigur ein Bonbon isst, darf sie einmal mehr schießen (oder auch e
 
 #find_item(
   "Wasserbombe",
-  "token/wasserbombe.svg",
+  "gegenstände/wasserbombe.svg",
   [
 Funktioniert wie das Schießen mit der Wasserpistole, sie trifft aber schon bei 2+.
 Dafür fliegt sie auch nur höchstens 10cm weit.
