@@ -156,7 +156,7 @@
 
 = Wasserschlacht
 
-In Wasserschlacht trittst du mit 1 bis 3 weiteren Spielern gegeneinander an, um festzustellen, wer von Euch am besten daran ist, die anderen nass zu machen.
+In Wasserschlacht tretet Ihr mit 2 bis 4 Spielern gegeneinander an, um festzustellen, wer von Euch am besten darin ist, die anderen nass zu machen.
 
 Ihr seit abwechselnd dran Eure Spielfiguren zu bewegen oder mit ihren Wasserpistolen oder Wasserbomben die anderen Spielfiguren nass zu machen.
 
