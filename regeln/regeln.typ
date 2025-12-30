@@ -283,7 +283,11 @@ Fund-Gegenstände dürfen aber jederzeit auch einfach fallen gelassen werden, so
 
 #pagebreak()
 
-= Spielfläche
+
+= Wie funktioniert's?
+
+== Spielfläche aufbauen
+
 Als Spielfläche wird ein Tisch (oder Fußboden) benötigt, der ungefähr 1m \* 1m groß sein sollte.
 Außerdem muss auf der Spielfläche ganz viel Gelände aufgebaut werden.
 Dies kann extra hierfür gebastelt, oder einfach aus LEGO oder DUPLO gebaut werden.
@@ -295,21 +299,67 @@ So könnte dein Spielfeld aussehen:
   image("abbildungen/spielfläche_beispiel.png", width: 80%),
 )
 
-= Die Regeln
+== Spielfiguren aufstellen
 
-TODO
+Jeder Mitspieler sucht sich eine Spielfelseite aus.
+Wenn Ihr Euch nicht einigen könnt wer wo anfängt, müsst Ihr das mit Schnick-Schnack-Schnuck bestimmen.
 
-== Aktionen
+Die Spielfiguren werden am Rand des Spielfeldes aufgestellt.
+Dabei muss darauf geachtet werden, links und rechts 20cm Platz zu lassen.
 
-TODO
+== Fund-Gegenstände verteilen
 
-=== Bewegen
+Alle Fund-Gegenstände werden nun von hoch oben und möglichst gut verteilt das auf das Spielfeld fallen gelassen.
 
-TODO
+== Los geht's
 
-=== Schießen
+Der Spieler der als letztes nass geworden ist fängt an.
+Von ihm aus geht es danach im Uhrzeigersinn weiter.
 
-TODO
+Wenn ein Spieler dran ist wählt er eine seiner Spielfiguren und kann nun mit ihr 2 Sachen machen.
+Es ist auch erlaubt, eine Sache einfach zweimal zu machen.
 
-=== Werfen
+#block(
+  [
+    === Bewegen
 
+    Du bewegst deine Spielfigur bis zu 10cm in eine beliebige Richtung.
+
+    Wenn sich die Spielfigur in Wald oder Gebüsch befindet, kann sie sich nur 5cm weit bewegen.
+  ],
+  fill: luma(230),
+  inset: 10pt,
+  radius: 10pt,
+  breakable: false,
+)
+
+#block(
+  [
+    === Wasserpistole benutzen
+
+    Du versuchst mit deiner Spielfigur eine andere Spielfigur nass zu spritzen, die höchstens 15cm entfernt steht.
+
+    Damit das gelingt musst du auf dem W6 eine 4+ würfeln.
+
+    Wenn sich die andere Spielfigur in Wald oder Gebüsch befindet, wird sie um -1 schlechter getroffen.
+
+    Wenn du den Wurf schaffst, muss die getroffene Spielfigur einen Wassertropfen auf ihrer Spielkarte markieren.
+
+    Wenn alle Wassertropfen markiert sind ist die Spielfigur klitschenass und muss das Spielfeld verlassen.
+  ],
+  fill: luma(230),
+  inset: 10pt,
+  radius: 10pt,
+  breakable: false,
+)
+
+Wenn der Mitspieler fertig ist mit seiner Spielfigur, ist automatisch der nächste Mitspieler dran.
+
+== Wer gewinnt?
+
+Es gewinnt der Spieler, der als letztes noch Spielfiguren auf dem Spielfeld hat.
+
+== Und die Verlierer?
+
+Jeder Spieler ohne Figuren auf dem Spielfeld hat leider verloren.
+Er darf zum Trost eine Limonade trinken.
