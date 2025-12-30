@@ -393,5 +393,5 @@ Es gewinnt der Spieler, der als letztes noch Spielfiguren auf dem Spielfeld hat.
 
 == Und die Verlierer?
 
-Jeder Spieler ohne Figuren auf dem Spielfeld hat leider verloren.
+Jeder Spieler ohne Spielfiguren auf dem Spielfeld hat leider verloren.
 Er darf zum Trost eine Limonade trinken.
