@@ -207,6 +207,8 @@ Jede Spielfigur startet mit genau einem dieser Gegenstände der von ihrem Spiele
 
 Start-Gegenstände werden nicht verbraucht und gelten für das gesamte Spiel.
 
+Wähle eines aus und male es in das orange Feld.
+
 #start_item(
   "Regenschirm",
   "gegenstände/regenschirm.svg",
@@ -230,6 +232,8 @@ Start-Gegenstände werden nicht verbraucht und gelten für das gesamte Spiel.
     Die Spielfigur kann sich immer 15cm bewegen.
   ],
 )
+
+#colbreak()
 
 == Fund-Gegenstände
 
@@ -276,6 +280,8 @@ Fund-Gegenstände dürfen aber jederzeit auch einfach fallen gelassen werden, so
     Dafür fliegt sie auch nur höchstens 10cm weit.
   ],
 )
+
+#pagebreak()
 
 = Spielfläche
 Als Spielfläche wird ein Tisch (oder Fußboden) benötigt, der ungefähr 1m \* 1m groß sein sollte.
