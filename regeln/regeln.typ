@@ -162,6 +162,8 @@ Ihr seit abwechselnd dran Eure Spielfiguren zu bewegen oder mit ihren Wasserpist
 
 Wer klitschenass ist muss nach Hause gehen und hat verloren!
 
+#colbreak()
+
 = Vorbereitung
 
 - Ihr müsst 2 bis 4 Spieler sein.
@@ -175,8 +177,6 @@ Wer klitschenass ist muss nach Hause gehen und hat verloren!
   Achtet darauf, dass jeder Mitspieler genau gleich viele Spielfiguren hat.
   Wenn Ihr zum ersten mal spielt solltet Ihr jeder nur 1 Spielfigur nehmen.
 
-- Ihr braucht für jeden Mitspieler einen sechsseitigen Würfel der auch "W6" genannt wird.
-
 - Für jede Eurer Spielfiguren benötigt Ihr noch eine Spielkarte um ihren Namen aufzuschreiben, die Gegenstände zu sammeln und einzukreisen, wie naß sie bereits geworden ist.
   #align(
     center,
@@ -186,8 +186,12 @@ Wer klitschenass ist muss nach Hause gehen und hat verloren!
     ),
   )
 
+- Ihr braucht für jeden Mitspieler einen sechsseitigen Würfel, der auch *W6* genannt wird.
+
 - Außerdem wird noch ein Maßstab mit Unterteilungen für 5cm, 10cm und 15cm benötigt.
   Am besten funktioniert es, wenn jeder Mitspieler einen hat.
+
+#pagebreak()
 
 = Die Ausrüstung
 
