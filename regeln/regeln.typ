@@ -281,7 +281,7 @@ Das funktioniert automatisch wenn die Spielfigur getroffen wird, während sie ei
   "Energy-Drink",
   "gegenstände/energy-drink.svg",
   [
-Wenn die Spielfigur einen Energy-Drink trinkt, darf sie sich einmal extra bewegen.
+    Wenn die Spielfigur einen Energy-Drink trinkt, darf sie sich einmal zusätzlich bewegen.
   ],
 )
 
@@ -289,7 +289,7 @@ Wenn die Spielfigur einen Energy-Drink trinkt, darf sie sich einmal extra bewege
   "Bonbon",
   "gegenstände/bonbon.svg",
   [
-Wenn die Spielfigur ein Bonbon isst, darf sie einmal mehr schießen (oder auch eine Wasserbombe werfen, falls sie eine hat).
+    Wenn die Spielfigur ein Bonbon isst, darf sie ihre Wasserpistole einmal zusätzlich benutzen (oder auch eine Wasserbombe werfen, falls sie eine hat).
   ],
 )
 
