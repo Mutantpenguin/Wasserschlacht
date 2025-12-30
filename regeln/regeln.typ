@@ -135,6 +135,7 @@
   paper: "a4",
   margin: (x: 1.5cm, y: 1.5cm),
   columns: 2,
+  numbering: "1",
 )
 
 #place(
