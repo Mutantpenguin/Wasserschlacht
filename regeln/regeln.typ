@@ -154,7 +154,7 @@
 
 #pagebreak()
 
-= Wasserschlacht
+= Worum geht's?
 
 In Wasserschlacht tretet Ihr mit 2 bis 4 Spielern gegeneinander an, um festzustellen, wer von Euch am besten darin ist, die anderen nass zu machen.
 
