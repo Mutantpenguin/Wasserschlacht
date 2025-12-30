@@ -373,7 +373,7 @@ Außerdem kann er jede ihrer Fund-Ausrüstung einfach so verwenden.
   [
     === Wasserpistole benutzen
 
-    Du versuchst mit deiner Spielfigur eine andere Spielfigur nass zu spritzen, die höchstens 15cm entfernt steht.
+    Du versuchst mit deiner Spielfigur eine andere Spielfigur nass zu spritzen, die höchstens 15cm entfernt steht und die deine Spielfigur sehen kann.
 
     Damit das gelingt musst du auf dem W6 eine 4+ würfeln.
 
