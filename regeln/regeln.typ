@@ -8,7 +8,7 @@
 
 #let item_font = "Coiny"
 
-#let _item(color, name, icon_name, content) = {
+#let _item(color, name, icon_name, content, count) = {
   block(
     stroke: black,
     radius: 3pt,
@@ -27,11 +27,13 @@
         align: alignment.center,
         table.cell(
           align: horizon,
-          text(
-            name,
-            font: item_font,
-            size: 1.5em,
-          ),
+          [
+            #text(
+              name,
+              font: item_font,
+              size: 1.5em,
+            )
+          ],
         ),
         table.cell(
           align: horizon,
@@ -44,18 +46,37 @@
 
       #block(
         inset: 10pt,
-        content,
+        [
+          #content
+
+          #if (count > 0) {
+            align(
+              bottom + center,
+              block(
+                fill: rgb("#2b779d"),
+                inset: 5pt,
+                radius: 5pt,
+                text(
+                  str(count) + " Token",
+                  font: item_font,
+                  size: 1em,
+                  fill: white,
+                ),
+              ),
+            )
+          }
+        ],
       )
     ],
   )
 }
 
 #let start_item(name, icon_name, content) = {
-  _item(rgb("#f7b02a"), name, icon_name, content)
+  _item(rgb("#f7b02a"), name, icon_name, content, 0)
 }
 
-#let find_item(name, icon_name, content) = {
-  _item(rgb("#4cb9d4"), name, icon_name, content)
+#let find_item(name, icon_name, content, count: 0) = {
+  _item(rgb("#4cb9d4"), name, icon_name, content, count)
 }
 
 #let heading_font = "Coiny"
@@ -187,6 +208,9 @@ Wer klitschenass ist muss nach Hause gehen und hat verloren!
     ),
   )
 
+- Für die Gegenstände benötigt Ihr Token.
+  Welche und wieviele könnt Ihr auf #ref(<Fund-Gegenstände>, form: "page") bei jedem Gegenstand nachlesen.
+
 - Ihr braucht für jeden Mitspieler einen sechsseitigen Würfel, der auch *W6* genannt wird.
 
 - Außerdem wird noch ein Maßstab mit Unterteilungen für 5cm, 10cm und 15cm benötigt.
@@ -237,6 +261,7 @@ Wähle eines aus und male es in das orange Feld.
 #colbreak()
 
 == Fund-Gegenstände
+<Fund-Gegenstände>
 
 Diese Gegenstände können nur auf dem Spielfeld gefunden werden.
 
@@ -255,6 +280,7 @@ Fund-Gegenstände dürfen aber jederzeit auch einfach fallen gelassen werden, so
 
     Das funktioniert automatisch wenn die Spielfigur getroffen wird, während sie ein Handtuch besitzt.
   ],
+  count: 8,
 )
 
 #find_item(
@@ -263,6 +289,7 @@ Fund-Gegenstände dürfen aber jederzeit auch einfach fallen gelassen werden, so
   [
     Wenn die Spielfigur einen Energy-Drink trinkt, darf sie sich einmal zusätzlich bewegen.
   ],
+  count: 5,
 )
 
 #find_item(
@@ -271,6 +298,7 @@ Fund-Gegenstände dürfen aber jederzeit auch einfach fallen gelassen werden, so
   [
     Wenn die Spielfigur ein Bonbon isst, darf sie ihre Wasserpistole einmal zusätzlich benutzen (oder auch eine Wasserbombe werfen, falls sie eine hat).
   ],
+  count: 5,
 )
 
 #find_item(
@@ -280,10 +308,10 @@ Fund-Gegenstände dürfen aber jederzeit auch einfach fallen gelassen werden, so
     Funktioniert wie das Benutzen der Wasserpistole, sie trifft aber schon bei 2+.
     Dafür fliegt sie auch nur höchstens 10cm weit.
   ],
+  count: 8,
 )
 
 #pagebreak()
-
 
 = Wie funktioniert's?
 
@@ -310,7 +338,9 @@ Dabei muss darauf geachtet werden, links und rechts 15cm Platz zu lassen.
 
 == Fund-Gegenstände verteilen
 
-Alle Fund-Gegenstände werden nun von hoch oben und möglichst gut verteilt das auf das Spielfeld fallen gelassen.
+Alle Fund-Gegenstände werden nun von hoch oben und möglichst gut verteilt auf das Spielfeld fallen gelassen.
+Es ist dabei egal, ob sie mit dem Bild nach oben oder unten liegenbleiben.
+Man darf erst nachschauen, wenn eine Spielfigur einen Token berührt.
 
 == Los geht's
 
