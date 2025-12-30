@@ -199,7 +199,7 @@ Wer klitschenass ist muss nach Hause gehen und hat verloren!
   Achtet darauf, dass jeder Mitspieler genau gleich viele Spielfiguren hat.
   Wenn Ihr zum ersten mal spielt solltet Ihr jeder nur 1 Spielfigur nehmen.
 
-- Für jede Eurer Spielfiguren benötigt Ihr noch eine Spielkarte um ihren Namen aufzuschreiben, die Gegenstände zu sammeln und einzukreisen, wie naß sie bereits geworden ist.
+- Für jede Eurer Spielfiguren benötigt Ihr noch eine Spielkarte um ihren Namen aufzuschreiben, die Ausrüstung zu sammeln und einzukreisen, wie naß sie bereits geworden ist.
   #align(
     center,
     image(
@@ -208,8 +208,8 @@ Wer klitschenass ist muss nach Hause gehen und hat verloren!
     ),
   )
 
-- Für die Gegenstände benötigt Ihr Token.
-  Welche und wieviele könnt Ihr auf #ref(<Fund-Gegenstände>, form: "page") bei jedem Gegenstand nachlesen.
+- Für die Ausrüstung benötigt Ihr Token.
+  Welche und wieviele könnt Ihr auf #ref(<Fund-Ausrüstung>, form: "page") bei jeder Ausrüstung nachlesen.
 
 - Ihr braucht für jeden Mitspieler einen sechsseitigen Würfel, der auch *W6* genannt wird.
 
@@ -220,23 +220,22 @@ Wer klitschenass ist muss nach Hause gehen und hat verloren!
 
 = Die Ausrüstung
 
-Es gibt Gegenstände, die für jede Spielfigur vor Beginn des Spiels ausgesucht werden oder während des Spiel gefunden werden können.
+Es gibt Ausrüstung, die für jede Spielfigur vor Beginn des Spiels ausgesucht wird oder während des Spiel gefunden werden kann.
 
 Auf der Spielkarte sind dafür 4 Felder vorhanden:
-- 1 in orange für einen Start-Gegenstand
-- 3 in blau für Fund-Gegenstände
+- 1 in orange für die Start-Ausrüstung
+- 3 in blau für Fund-Ausrüstung
 
-== Start-Gegenstände
+== Start-Ausrüstung
 
-Jede Spielfigur startet mit genau einem dieser Gegenstände der von ihrem Spieler ausgewählt wird.
+Jede Spielfigur startet mit genau einem Teil dieser Ausrüstung.
+Sie wird nicht verbraucht und gilt für das gesamte Spiel.
 
-Start-Gegenstände werden nicht verbraucht und gelten für das gesamte Spiel.
-
-Wähle eines aus und male es in das orange Feld.
+Wähle eine aus und male sie in das orange Feld.
 
 #start_item(
   "Regenschirm",
-  "gegenstände/regenschirm.svg",
+  "ausrüstung/regenschirm.svg",
   [
     Die Spielfigur wird immer 1 schlechter getroffen.
   ],
@@ -244,7 +243,7 @@ Wähle eines aus und male es in das orange Feld.
 
 #start_item(
   "Zielfernrohr",
-  "gegenstände/zielfernrohr.svg",
+  "ausrüstung/zielfernrohr.svg",
   [
     Die Spielfigur trifft immer um 1 besser (nicht bei Wasserbomben).
   ],
@@ -252,7 +251,7 @@ Wähle eines aus und male es in das orange Feld.
 
 #start_item(
   "Turbo-Schuhe",
-  "gegenstände/turbo-schuhe.svg",
+  "ausrüstung/turbo-schuhe.svg",
   [
     Die Spielfigur kann sich immer 15cm bewegen.
   ],
@@ -260,21 +259,21 @@ Wähle eines aus und male es in das orange Feld.
 
 #colbreak()
 
-== Fund-Gegenstände
-<Fund-Gegenstände>
+== Fund-Ausrüstung
+<Fund-Ausrüstung>
 
-Diese Gegenstände können nur auf dem Spielfeld gefunden werden.
+Diese Ausrüstung kann nur auf dem Spielfeld gefunden werden.
 
-Sie können immer dann benutzt werden, wenn die Spielfigur, die sie hat, an der Reihe ist.
-Nach Benutzung sind sie vebraucht und müssen beiseite gelegt werden.
+Sie kann immer dann benutzt werden, wenn die Spielfigur, die sie hat, an der Reihe ist.
+Nach Benutzung ist sie vebraucht und muss beiseite gelegt werden.
 
-Wenn eine Spielfigur sich über einen Gegenstand bewegt kann sie ihn sofort aufheben.
-Sind alle blauen Felder voll, kann kein weiterer Gegenstand mehr aufgehoben werden!
-Fund-Gegenstände dürfen aber jederzeit auch einfach fallen gelassen werden, so dass z.B. tauschen problemlos möglich ist.
+Wenn eine Spielfigur sich über eine Fund-Ausrüstung bewegt, kann sie sie sofort aufheben.
+Sind alle blauen Felder voll, kann keine weitere Fund-Ausrüstung mehr aufgehoben werden!
+Fund-Ausrüstung darf aber jederzeit auch einfach fallen gelassen werden, so dass z.B. tauschen problemlos möglich ist.
 
 #find_item(
   "Handtuch",
-  "gegenstände/handtuch.svg",
+  "ausrüstung/handtuch.svg",
   [
     Bei Benutzung eines Handtuchs darfst du einen Wassertropfen abtrocknen.
 
@@ -285,7 +284,7 @@ Fund-Gegenstände dürfen aber jederzeit auch einfach fallen gelassen werden, so
 
 #find_item(
   "Energy-Drink",
-  "gegenstände/energy-drink.svg",
+  "ausrüstung/energy-drink.svg",
   [
     Wenn die Spielfigur einen Energy-Drink trinkt, darf sie sich einmal zusätzlich bewegen.
   ],
@@ -294,7 +293,7 @@ Fund-Gegenstände dürfen aber jederzeit auch einfach fallen gelassen werden, so
 
 #find_item(
   "Bonbon",
-  "gegenstände/bonbon.svg",
+  "ausrüstung/bonbon.svg",
   [
     Wenn die Spielfigur ein Bonbon isst, darf sie ihre Wasserpistole einmal zusätzlich benutzen (oder auch eine Wasserbombe werfen, falls sie eine hat).
   ],
@@ -303,7 +302,7 @@ Fund-Gegenstände dürfen aber jederzeit auch einfach fallen gelassen werden, so
 
 #find_item(
   "Wasserbombe",
-  "gegenstände/wasserbombe.svg",
+  "ausrüstung/wasserbombe.svg",
   [
     Funktioniert wie das Benutzen der Wasserpistole, sie trifft aber schon bei 2+.
     Dafür fliegt sie auch nur höchstens 10cm weit.
@@ -336,9 +335,9 @@ Wenn Ihr Euch nicht einigen könnt wer wo anfängt, müsst Ihr das mit Schnick-S
 Die Spielfiguren werden am Rand des Spielfeldes aufgestellt.
 Dabei muss darauf geachtet werden, links und rechts 15cm Platz zu lassen.
 
-== Fund-Gegenstände verteilen
+== Fund-Ausrüstung verteilen
 
-Alle Fund-Gegenstände werden nun von hoch oben und möglichst gut verteilt auf das Spielfeld fallen gelassen.
+Alle Fund-Ausrüstung Tokens werde nun von hoch oben und möglichst gut verteilt auf das Spielfeld fallen gelassen.
 Es ist dabei egal, ob sie mit dem Bild nach oben oder unten liegenbleiben.
 Man darf erst nachschauen, wenn eine Spielfigur einen Token berührt.
 
@@ -377,7 +376,7 @@ Es ist auch erlaubt, eine Sache einfach zweimal zu machen.
     Wenn du den Wurf schaffst, muss die getroffene Spielfigur einen Wassertropfen auf ihrer Spielkarte markieren.
 
     Wenn alle 5 Wassertropfen markiert sind, ist die Spielfigur klitschenass und muss das Spielfeld verlassen.
-    Ihre Fund-Gegenstände lässt sie dabei an Ort und Stelle fallen.
+    Ihre Fund-Ausrüstung lässt sie dabei an Ort und Stelle fallen.
   ],
   fill: luma(230),
   inset: 10pt,
