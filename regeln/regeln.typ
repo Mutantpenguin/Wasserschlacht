@@ -242,18 +242,18 @@ Wähle eine aus und male sie in das orange Feld.
 )
 
 #start_item(
-  "Zielfernrohr",
-  "ausrüstung/zielfernrohr.svg",
-  [
-    Die Spielfigur trifft immer um 1 besser (nicht bei Wasserbomben).
-  ],
-)
-
-#start_item(
   "Turbo-Schuhe",
   "ausrüstung/turbo-schuhe.svg",
   [
     Die Spielfigur kann sich immer 15cm bewegen.
+  ],
+)
+
+#start_item(
+  "Zielfernrohr",
+  "ausrüstung/zielfernrohr.svg",
+  [
+    Die Spielfigur trifft immer um 1 besser (nicht bei Wasserbomben).
   ],
 )
 
@@ -272,14 +272,12 @@ Sind alle blauen Felder voll, kann keine weitere Fund-Ausrüstung mehr aufgehobe
 Fund-Ausrüstung darf aber jederzeit auch einfach fallen gelassen werden, so dass z.B. tauschen problemlos möglich ist.
 
 #find_item(
-  "Handtuch",
-  "ausrüstung/handtuch.svg",
+  "Bonbon",
+  "ausrüstung/bonbon.svg",
   [
-    Bei Benutzung eines Handtuchs darfst du einen Wassertropfen abtrocknen.
-
-    Das funktioniert automatisch wenn die Spielfigur getroffen wird, während sie ein Handtuch besitzt.
+    Wenn die Spielfigur ein Bonbon isst, darf sie ihre Wasserpistole einmal zusätzlich benutzen (oder auch eine Wasserbombe werfen, falls sie eine hat).
   ],
-  count: 8,
+  count: 5,
 )
 
 #find_item(
@@ -292,12 +290,14 @@ Fund-Ausrüstung darf aber jederzeit auch einfach fallen gelassen werden, so das
 )
 
 #find_item(
-  "Bonbon",
-  "ausrüstung/bonbon.svg",
+  "Handtuch",
+  "ausrüstung/handtuch.svg",
   [
-    Wenn die Spielfigur ein Bonbon isst, darf sie ihre Wasserpistole einmal zusätzlich benutzen (oder auch eine Wasserbombe werfen, falls sie eine hat).
+    Bei Benutzung eines Handtuchs darfst du einen Wassertropfen abtrocknen.
+
+    Das funktioniert automatisch wenn die Spielfigur getroffen wird, während sie ein Handtuch besitzt.
   ],
-  count: 5,
+  count: 8,
 )
 
 #find_item(
