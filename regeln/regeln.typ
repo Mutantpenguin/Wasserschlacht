@@ -57,7 +57,7 @@
                 inset: 5pt,
                 radius: 5pt,
                 text(
-                  str(count) + " Token",
+                  str(count) + " Marker",
                   font: item_font,
                   size: 1em,
                   fill: white,
@@ -208,7 +208,7 @@ Wer klitschenass ist muss nach Hause gehen und hat verloren!
     ),
   )
 
-- Für die Ausrüstung benötigt Ihr Token.
+- Für die Ausrüstung benötigt Ihr Marker.
   Welche und wieviele könnt Ihr auf #ref(<Fund-Ausrüstung>, form: "page") bei jeder Ausrüstung nachlesen.
 
 - Ihr braucht für jeden Mitspieler einen sechsseitigen Würfel, der auch *W6* genannt wird.
@@ -337,9 +337,9 @@ Dabei muss darauf geachtet werden, links und rechts 15cm Platz zu lassen.
 
 == Fund-Ausrüstung verteilen
 
-Alle Fund-Ausrüstung Tokens werde nun von hoch oben und möglichst gut verteilt auf das Spielfeld fallen gelassen.
+Alle Fund-Ausrüstung Marker werde nun von hoch oben und möglichst gut verteilt auf das Spielfeld fallen gelassen.
 Es ist dabei egal, ob sie mit dem Bild nach oben oder unten liegenbleiben.
-Man darf erst nachschauen, wenn eine Spielfigur einen Token berührt.
+Man darf erst nachschauen, wenn eine Spielfigur einen Marker berührt.
 
 == Los geht's
 
