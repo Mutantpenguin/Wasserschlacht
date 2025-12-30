@@ -189,6 +189,90 @@ Wer klitschenass ist muss nach Hause gehen und hat verloren!
 - Außerdem wird noch ein Maßstab mit Unterteilungen für 5cm, 10cm und 15cm benötigt.
   Am besten funktioniert es, wenn jeder Mitspieler einen hat.
 
+= Die Ausrüstung
+
+Es gibt Gegenstände, die für jede Spielfigur vor Beginn des Spiels ausgesucht werden oder während des Spiel gefunden werden können.
+
+Auf der Spielkarte sind dafür 4 Felder vorhanden:
+- 1 in orange für einen Start-Gegenstand
+- 3 in blau für Fund-Gegenstände
+
+== Start-Gegenstände
+
+Jede Spielfigur startet mit genau einem dieser Gegenstände der von ihrem Spieler ausgewählt wird.
+
+Start-Gegenstände werden nicht verbraucht und gelten für das gesamte Spiel.
+
+#start_item(
+  "Regenschirm",
+  "gegenstände/regenschirm.svg",
+  [
+    Die Spielfigur wird immer 1 schlechter getroffen.
+  ],
+)
+
+#start_item(
+  "Zielfernrohr",
+  "gegenstände/zielfernrohr.svg",
+  [
+    Die Spielfigur trifft immer um 1 besser (nicht bei Wasserbomben).
+  ],
+)
+
+#start_item(
+  "Turbo-Schuhe",
+  "gegenstände/turbo-schuhe.svg",
+  [
+    Die Spielfigur kann sich immer 15cm bewegen.
+  ],
+)
+
+== Fund-Gegenstände
+
+Diese Gegenstände können nur auf dem Spielfeld gefunden werden.
+
+Sie können immer dann benutzt werden, wenn die Spielfigur, die sie hat, an der Reihe ist.
+Nach Benutzung sind sie vebraucht und müssen beiseite gelegt werden.
+
+Wenn eine Spielfigur sich über einen Gegenstand bewegt kann sie ihn sofort aufheben.
+Sind alle blauen Felder voll, kann kein weiterer Gegenstand mehr aufgehoben werden!
+Fund-Gegenstände dürfen aber jederzeit auch einfach fallen gelassen werden, so dass z.B. tauschen problemlos möglich ist.
+
+#find_item(
+  "Handtuch",
+  "gegenstände/handtuch.svg",
+  [
+    Bei Benutzung eines Handtuchs darfst du einen Wassertropfen abtrocknen.
+
+    Das funktioniert automatisch wenn die Spielfigur getroffen wird, während sie ein Handtuch besitzt.
+  ],
+)
+
+#find_item(
+  "Energy-Drink",
+  "gegenstände/energy-drink.svg",
+  [
+    Wenn die Spielfigur einen Energy-Drink trinkt, darf sie sich einmal zusätzlich bewegen.
+  ],
+)
+
+#find_item(
+  "Bonbon",
+  "gegenstände/bonbon.svg",
+  [
+    Wenn die Spielfigur ein Bonbon isst, darf sie ihre Wasserpistole einmal zusätzlich benutzen (oder auch eine Wasserbombe werfen, falls sie eine hat).
+  ],
+)
+
+#find_item(
+  "Wasserbombe",
+  "gegenstände/wasserbombe.svg",
+  [
+    Funktioniert wie das Benutzen der Wasserpistole, sie trifft aber schon bei 2+.
+    Dafür fliegt sie auch nur höchstens 10cm weit.
+  ],
+)
+
 = Spielfläche
 Als Spielfläche wird ein Tisch (oder Fußboden) benötigt, der ungefähr 1m \* 1m groß sein sollte.
 Außerdem muss auf der Spielfläche ganz viel Gelände aufgebaut werden.
@@ -219,85 +303,3 @@ TODO
 
 === Werfen
 
-= Die Ausrüstung
-
-Es gibt Gegenstände, die für jede Spielfigur vor Beginn des Spiels ausgesucht werden oder während des Spiel gefunden werden können.
-
-Auf der Spielkarte sind dafür 4 Felder vorhanden:
-- 1 in orange für einen Start-Gegenstand
-- 3 in blau für Fund-Gegenstände
-
-== Start-Gegenstände
-
-Jede Spielfigur startet mit genau einem dieser Gegenstände der von ihrem Spieler ausgewählt wird.
-
-Start-Gegenstände werden nicht verbraucht und gelten für das gesamte Spiel.
-
-#start_item(
-  "Regenschirm",
-  "gegenstände/regenschirm.svg",
-  [
-Die Spielfigur wird immer 1 schlechter getroffen.
-  ],
-)
-
-#start_item(
-  "Zielfernrohr",
-  "gegenstände/zielfernrohr.svg",
-  [
-Die Spielfigur trifft immer um 1 besser (nicht bei Wasserbomben).
-  ],
-)
-
-#start_item(
-  "Turbo-Schuhe",
-  "gegenstände/turbo-schuhe.svg",
-  [
-Die Spielfigur kann sich immer 15cm bewegen.
-  ],
-)
-
-== Fund-Gegenstände
-
-Diese Gegenstände können auf dem Spielfeld gefunden werden.
-
-Wenn eine Spielfigur sich über einen Gegenstand bewegt kann sie ihn sofort aufheben.
-Sind alle blauen Felder voll, kann kein weiterer Gegenstand mehr aufgehoben werden!
-Fund-Gegenstände dürfen jederzeit auch einfach fallen gelassen werden.
-
-Wenn ein Fund-Gegenstand benutzt wird ist er vebraucht und muss beiseite gelegt werden.
-
-#find_item(
-  "Handtuch",
-  "gegenstände/handtuch.svg",
-  [
-Bei Benutzung eines Handtuchs darfst du einen Wassertropfen abtrocknen.
-
-Das funktioniert automatisch wenn die Spielfigur getroffen wird, während sie ein Handtuch besitzt.
-  ],
-)
-
-#find_item(
-  "Energy-Drink",
-  "gegenstände/energy-drink.svg",
-  [
-    Wenn die Spielfigur einen Energy-Drink trinkt, darf sie sich einmal zusätzlich bewegen.
-  ],
-)
-
-#find_item(
-  "Bonbon",
-  "gegenstände/bonbon.svg",
-  [
-    Wenn die Spielfigur ein Bonbon isst, darf sie ihre Wasserpistole einmal zusätzlich benutzen (oder auch eine Wasserbombe werfen, falls sie eine hat).
-  ],
-)
-
-#find_item(
-  "Wasserbombe",
-  "gegenstände/wasserbombe.svg",
-  [
-Funktioniert wie das Schießen mit der Wasserpistole, sie trifft aber schon bei 2+.
-Dafür fliegt sie auch nur höchstens 10cm weit.
-  ],
-)
