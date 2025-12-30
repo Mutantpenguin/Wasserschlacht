@@ -346,7 +346,11 @@ Man darf erst nachschauen, wenn eine Spielfigur einen Marker berührt.
 Der Spieler der als letztes nass geworden ist fängt an.
 Von ihm aus geht es danach im Uhrzeigersinn weiter.
 
-Wenn ein Spieler dran ist wählt er eine seiner Spielfiguren und kann nun mit ihr 2 Sachen machen.
+Wenn ein Spieler dran ist wählt er eine seiner Spielfiguren aus.
+Er muss sie allerdings abwechselnd auswählen.
+Das bedeutet, dass er eine Spielfigur erst auswählen kann, nachdem er bereits vorher alle anderen Spielfiguren ausgewählt hat.
+
+Er kann nun mit ihr 2 Sachen machen.
 Es ist auch erlaubt, eine Sache einfach zweimal zu machen.
 
 #block(
@@ -384,7 +388,7 @@ Es ist auch erlaubt, eine Sache einfach zweimal zu machen.
   breakable: false,
 )
 
-Wenn der Mitspieler fertig ist mit seiner Spielfigur, ist automatisch der nächste Mitspieler dran.
+Wenn der Spieler fertig ist mit seiner Spielfigur, ist automatisch der nächste Mitspieler dran.
 
 == Wer gewinnt?
 
