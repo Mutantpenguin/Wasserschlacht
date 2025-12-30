@@ -353,6 +353,8 @@ Das bedeutet, dass er eine Spielfigur erst auswählen kann, nachdem er bereits v
 Er kann nun mit ihr 2 Sachen machen.
 Es ist auch erlaubt, eine Sache einfach zweimal zu machen.
 
+Außerdem kann er jede ihrer Fund-Ausrüstung einfach so verwenden.
+
 #block(
   [
     === Bewegen
