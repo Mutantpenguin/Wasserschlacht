@@ -306,7 +306,7 @@ Jeder Mitspieler sucht sich eine Spielfelseite aus.
 Wenn Ihr Euch nicht einigen könnt wer wo anfängt, müsst Ihr das mit Schnick-Schnack-Schnuck bestimmen.
 
 Die Spielfiguren werden am Rand des Spielfeldes aufgestellt.
-Dabei muss darauf geachtet werden, links und rechts 20cm Platz zu lassen.
+Dabei muss darauf geachtet werden, links und rechts 15cm Platz zu lassen.
 
 == Fund-Gegenstände verteilen
 
