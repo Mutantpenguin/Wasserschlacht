@@ -346,7 +346,7 @@ Es ist auch erlaubt, eine Sache einfach zweimal zu machen.
 
     Wenn du den Wurf schaffst, muss die getroffene Spielfigur einen Wassertropfen auf ihrer Spielkarte markieren.
 
-    Wenn alle Wassertropfen markiert sind ist die Spielfigur klitschenass und muss das Spielfeld verlassen.
+    Wenn alle 5 Wassertropfen markiert sind, ist die Spielfigur klitschenass und muss das Spielfeld verlassen.
   ],
   fill: luma(230),
   inset: 10pt,
