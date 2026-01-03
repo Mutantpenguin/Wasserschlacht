@@ -46,6 +46,7 @@
 
       #block(
         inset: 10pt,
+        width: 100%,
         [
           #content
 
