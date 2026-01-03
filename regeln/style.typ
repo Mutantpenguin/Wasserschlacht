@@ -139,10 +139,31 @@
   )
 }
 
-#let start_item(name, icon_name, content) = {
+#let _start_item(name, icon_name, content) = {
   _item(rgb("#f7b02a"), name, icon_name, content, 0)
 }
 
-#let find_item(name, icon_name, content, count: 0) = {
+#let _find_item(name, icon_name, content, count) = {
   _item(rgb("#4cb9d4"), name, icon_name, content, count)
+}
+
+#let start_items(item_array) = {
+  for i in item_array {
+    _start_item(
+      i.name,
+      i.icon,
+      i.contents,
+    )
+  }
+}
+
+#let find_items(item_array) = {
+  for i in item_array {
+    _find_item(
+      i.name,
+      i.icon,
+      i.contents,
+      i.count,
+    )
+  }
 }

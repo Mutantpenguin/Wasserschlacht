@@ -1,4 +1,5 @@
 #import "style.typ" as style
+#import "items.typ" as items
 
 #show: style.apply
 
@@ -91,29 +92,7 @@ Sie wird nicht verbraucht und gilt für das gesamte Spiel.
 
 Wähle eine aus und male sie in das orange Feld.
 
-#style.start_item(
-  "Regenschirm",
-  "ausrüstung/regenschirm.svg",
-  [
-    Die Spielfigur wird immer 1 schlechter getroffen.
-  ],
-)
-
-#style.start_item(
-  "Turbo-Schuhe",
-  "ausrüstung/turbo-schuhe.svg",
-  [
-    Die Spielfigur kann sich immer 15cm bewegen.
-  ],
-)
-
-#style.start_item(
-  "Zielfernrohr",
-  "ausrüstung/zielfernrohr.svg",
-  [
-    Die Spielfigur trifft immer um 1 besser (nicht bei Wasserbomben).
-  ],
-)
+#style.start_items(items.start)
 
 #colbreak()
 
@@ -129,44 +108,7 @@ Wenn eine Spielfigur sich über eine Fund-Ausrüstung bewegt, kann sie sie sofor
 Sind alle blauen Felder voll, kann keine weitere Fund-Ausrüstung mehr aufgehoben werden!
 Fund-Ausrüstung darf aber jederzeit auch einfach fallen gelassen werden, so dass z.B. tauschen problemlos möglich ist.
 
-#style.find_item(
-  "Bonbon",
-  "ausrüstung/bonbon.svg",
-  [
-    Wenn die Spielfigur ein Bonbon isst, darf sie ihre Wasserpistole einmal zusätzlich benutzen (oder auch eine Wasserbombe werfen, falls sie eine hat).
-  ],
-  count: 5,
-)
-
-#style.find_item(
-  "Energy-Drink",
-  "ausrüstung/energy-drink.svg",
-  [
-    Wenn die Spielfigur einen Energy-Drink trinkt, darf sie sich einmal zusätzlich bewegen.
-  ],
-  count: 5,
-)
-
-#style.find_item(
-  "Handtuch",
-  "ausrüstung/handtuch.svg",
-  [
-    Bei Benutzung eines Handtuchs darfst du einen Wassertropfen abtrocknen.
-
-    Das funktioniert automatisch wenn die Spielfigur getroffen wird, während sie ein Handtuch besitzt.
-  ],
-  count: 8,
-)
-
-#style.find_item(
-  "Wasserbombe",
-  "ausrüstung/wasserbombe.svg",
-  [
-    Funktioniert wie das Benutzen der Wasserpistole, sie trifft aber schon bei 2+.
-    Dafür fliegt sie auch nur höchstens 10cm weit.
-  ],
-  count: 8,
-)
+#style.find_items(items.find)
 
 #pagebreak()
 
