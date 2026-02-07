@@ -19,6 +19,13 @@
   description: "Ein Tabletop Spiel für Kinder.",
 )
 
+#outline(
+  title: "Inhaltsverzeichnis",
+  depth: 2,
+)
+
+#pagebreak()
+
 #pagebreak()
 
 = Worum geht's?
