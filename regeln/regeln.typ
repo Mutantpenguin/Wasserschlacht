@@ -197,7 +197,7 @@ Wenn der Spieler fertig ist mit seiner Spielfigur, muss er ihre Karte drehen, um
 
 Danach ist automatisch der nächste Mitspieler dran.
 
-Wenn die Spielfiguren aller Mitspieler verwendet wurden beginnt die nächste Runde.
+Wenn die Spielfiguren aller Mitspieler verwendet wurden beginnt die nächste Runde, und alle Karten werden wieder gerade gedreht.
 
 == Wer gewinnt?
 
