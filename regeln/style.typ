@@ -1,4 +1,4 @@
-#let _font_color = rgb("#2b779dff")
+#let font_color = rgb("#2b779dff")
 
 #let apply(doc) = [
   #set text(
@@ -20,7 +20,7 @@
       font: heading_font,
       size: 22pt,
       weight: "bold",
-      fill: _font_color,
+      fill: font_color,
     )
     block(
       [
@@ -29,7 +29,7 @@
         #line(
           length: 100%,
           stroke: (
-            paint: gradient.linear(_font_color, white),
+            paint: gradient.linear(font_color, white),
             thickness: 3pt,
             cap: "round",
           ),
@@ -44,7 +44,7 @@
       font: heading_font,
       size: 14pt,
       weight: "bold",
-      fill: _font_color,
+      fill: font_color,
     )
     block(
       [
@@ -53,7 +53,7 @@
         #line(
           length: 100%,
           stroke: (
-            paint: gradient.linear(_font_color, white),
+            paint: gradient.linear(font_color, white),
             thickness: 1pt,
             cap: "round",
           ),
@@ -68,7 +68,7 @@
       font: heading_font,
       size: 12pt,
       weight: "bold",
-      fill: _font_color,
+      fill: font_color,
     )
     block(smallcaps(it.body))
   }
