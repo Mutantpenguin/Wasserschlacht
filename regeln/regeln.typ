@@ -136,16 +136,16 @@ Man darf erst nachschauen, wenn eine Spielfigur einen Marker berührt.
 
 == Los geht's
 
-Der Spieler der als letztes nass geworden ist fängt an.
+Gespielt wird in Runden, in denen jeder Spieler seine Spielfiguren verwendet.
+Der Spieler, der als letztes nass geworden ist fängt an.
 Von ihm aus geht es danach im Uhrzeigersinn weiter.
 
-Wenn ein Spieler dran ist wählt er eine seiner Spielfiguren aus.
-Er muss sie allerdings abwechselnd auswählen.
-Das bedeutet, dass er eine Spielfigur erst auswählen kann, nachdem er bereits vorher alle anderen Spielfiguren ausgewählt hat.
+Zum Beginn einer Runde müssen alle Spieler ihre Spielkarten gerade vor sich liegen haben.
+
+Sobald ein Spieler dran ist, wählt er *eine* seiner Spielfiguren, die er in dieser Runde noch nicht verwendet hat.
 
 Er kann nun mit ihr 2 Sachen machen.
 Es ist auch erlaubt, eine Sache einfach zweimal zu machen.
-
 Außerdem kann er jede ihrer Fund-Ausrüstung einfach so verwenden.
 
 #block(
@@ -183,7 +183,19 @@ Außerdem kann er jede ihrer Fund-Ausrüstung einfach so verwenden.
   breakable: false,
 )
 
-Wenn der Spieler fertig ist mit seiner Spielfigur, ist automatisch der nächste Mitspieler dran.
+Wenn der Spieler fertig ist mit seiner Spielfigur, muss er ihre Spielkarte drehen, um sich so zu merken, dass er die Spielfigur in dieser Runde schon verwendet hat.
+
+#align(
+  center,
+  image(
+    "tappen.svg",
+    width: 60%,
+  ),
+)
+
+Danach ist automatisch der nächste Mitspieler dran.
+
+Wenn die Spielfiguren aller Mitspieler verwendet wurden beginnt die nächste Runde.
 
 == Wer gewinnt?
 
