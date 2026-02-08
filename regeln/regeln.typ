@@ -124,6 +124,7 @@ So könnte dein Spielfeld aussehen:
 
 Jeder Mitspieler sucht sich eine Spielfelseite aus.
 Wenn Ihr Euch nicht einigen könnt wer wo anfängt, müsst Ihr das mit Schnick-Schnack-Schnuck bestimmen.
+Wichtig ist, dass auf jeder Spielfeldseite nur 1 Mitspieler ist!
 
 Die Spielfiguren werden am Rand des Spielfeldes aufgestellt.
 Dabei muss darauf geachtet werden, links und rechts 15cm Platz zu lassen.
