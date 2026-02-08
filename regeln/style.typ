@@ -40,7 +40,7 @@
   #show heading.where(level: 2): it => {
     set text(
       font: heading_font,
-      size: 12pt,
+      size: 14pt,
       weight: "bold",
       fill: rgb("#2b779dff"),
     )
@@ -64,8 +64,9 @@
   #show heading.where(level: 3): it => {
     set text(
       font: heading_font,
-      size: 10pt,
+      size: 12pt,
       weight: "bold",
+      fill: rgb("#2b779dff"),
     )
     block(smallcaps(it.body))
   }
