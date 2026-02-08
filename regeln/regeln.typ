@@ -51,7 +51,7 @@ Wer klitschenass ist muss nach Hause gehen und hat verloren!
   Achtet darauf, dass jeder Mitspieler genau gleich viele Spielfiguren hat.
   Wenn Ihr zum ersten mal spielt solltet Ihr jeder nur 1 Spielfigur nehmen.
 
-- Für jede Eurer Spielfiguren benötigt Ihr noch eine Spielkarte um ihren Namen aufzuschreiben, die Ausrüstung zu sammeln und einzukreisen, wie naß sie bereits geworden ist.
+- Für jede Eurer Spielfiguren benötigt Ihr noch eine Karte um ihren Namen aufzuschreiben, die Ausrüstung zu sammeln und einzukreisen, wie naß sie bereits geworden ist.
   #align(
     center,
     image(
@@ -74,7 +74,7 @@ Wer klitschenass ist muss nach Hause gehen und hat verloren!
 
 Es gibt Ausrüstung, die für jede Spielfigur vor Beginn des Spiels ausgesucht wird oder während des Spiel gefunden werden kann.
 
-Auf der Spielkarte sind dafür 4 Felder vorhanden:
+Auf der Karte sind dafür 4 Felder vorhanden:
 - 1 in orange für die Start-Ausrüstung
 - 3 in blau für Fund-Ausrüstung
 
@@ -140,7 +140,7 @@ Gespielt wird in Runden, in denen jeder Spieler seine Spielfiguren verwendet.
 Der Spieler, der als letztes nass geworden ist fängt an.
 Von ihm aus geht es danach im Uhrzeigersinn weiter.
 
-Zum Beginn einer Runde müssen alle Spieler ihre Spielkarten gerade vor sich liegen haben.
+Zum Beginn einer Runde müssen alle Spieler ihre Karten gerade vor sich liegen haben.
 
 Sobald ein Spieler dran ist, wählt er *eine* seiner Spielfiguren, die er in dieser Runde noch nicht verwendet hat.
 
@@ -172,7 +172,7 @@ Außerdem kann er jede ihrer Fund-Ausrüstung einfach so verwenden.
 
     Wenn sich die andere Spielfigur in Wald oder Gebüsch befindet, wird sie um -1 schlechter getroffen.
 
-    Wenn du den Wurf schaffst, muss die getroffene Spielfigur einen Wassertropfen auf ihrer Spielkarte markieren.
+    Wenn du den Wurf schaffst, muss die getroffene Spielfigur einen Wassertropfen auf ihrer Karte markieren.
 
     Wenn alle 5 Wassertropfen markiert sind, ist die Spielfigur klitschenass und muss das Spielfeld verlassen.
     Ihre Fund-Ausrüstung lässt sie dabei an Ort und Stelle fallen.
@@ -183,7 +183,7 @@ Außerdem kann er jede ihrer Fund-Ausrüstung einfach so verwenden.
   breakable: false,
 )
 
-Wenn der Spieler fertig ist mit seiner Spielfigur, muss er ihre Spielkarte drehen, um sich so zu merken, dass er die Spielfigur in dieser Runde schon verwendet hat.
+Wenn der Spieler fertig ist mit seiner Spielfigur, muss er ihre Karte drehen, um sich so zu merken, dass er die Spielfigur in dieser Runde schon verwendet hat.
 
 #align(
   center,
