@@ -30,7 +30,7 @@
 
 = Worum geht's?
 
-In Wasserschlacht tretet Ihr mit 2 bis 4 Spielern gegeneinander an, um festzustellen, wer von Euch am besten darin ist, die anderen nass zu machen.
+In Wasserschlacht tretet Ihr mit 2 bis 4 Mitspielern gegeneinander an, um festzustellen, wer von Euch am besten darin ist, die anderen nass zu machen.
 
 Ihr seit abwechselnd dran Eure Spielfiguren zu bewegen oder mit ihren Wasserpistolen oder Wasserbomben die anderen Spielfiguren nass zu machen.
 
@@ -40,9 +40,9 @@ Wer klitschenass ist muss nach Hause gehen und hat verloren!
 
 = Vorbereitung
 
-- Ihr müsst 2 bis 4 Spieler sein.
+- Ihr müsst 2 bis 4 Mitspieler sein.
 
-- Ihr braucht für jeden Spieler Spielfiguren die ungefähr 3cm bis 5cm groß sein sollten.
+- Ihr braucht für jeden Mitspieler Spielfiguren die ungefähr 3cm bis 5cm groß sein sollten.
   Lasst Eurer Fantasie freien Lauf und nehmt alles was Euch in die Hände kommt:
   LEGO, DUPLO, Transformers, Dinosaurier oder Pokemon, jedes Spielzeug ist in Ordnung!
 
@@ -136,13 +136,13 @@ Man darf erst nachschauen, wenn eine Spielfigur einen Marker berührt.
 
 == Los geht's
 
-Gespielt wird in Runden, in denen jeder Spieler seine Spielfiguren verwendet.
-Der Spieler, der als letztes nass geworden ist fängt an.
+Gespielt wird in Runden, in denen jeder Mitspieler seine Spielfiguren verwendet.
+Der Mitspieler, der als letztes nass geworden ist fängt an.
 Von ihm aus geht es danach im Uhrzeigersinn weiter.
 
-Zum Beginn einer Runde müssen alle Spieler ihre Karten gerade vor sich liegen haben.
+Zum Beginn einer Runde müssen alle Mitspieler ihre Karten gerade vor sich liegen haben.
 
-Sobald ein Spieler dran ist, wählt er *eine* seiner Spielfiguren, die er in dieser Runde noch nicht verwendet hat.
+Sobald ein Mitspieler dran ist, wählt er *eine* seiner Spielfiguren, die er in dieser Runde noch nicht verwendet hat.
 
 Er kann nun mit ihr 2 Sachen machen.
 Es ist auch erlaubt, eine Sache einfach zweimal zu machen.
@@ -185,7 +185,7 @@ Außerdem kann er jede ihrer Fund-Ausrüstung einfach so verwenden.
   breakable: false,
 )
 
-Wenn der Spieler fertig ist mit seiner Spielfigur, muss er ihre Karte drehen, um sich so zu merken, dass er die Spielfigur in dieser Runde schon verwendet hat.
+Wenn der Mitspieler fertig ist mit seiner Spielfigur, muss er ihre Karte drehen, um sich so zu merken, dass er die Spielfigur in dieser Runde schon verwendet hat.
 
 #align(
   center,
@@ -201,9 +201,9 @@ Wenn die Spielfiguren aller Mitspieler verwendet wurden beginnt die nächste Run
 
 == Wer gewinnt?
 
-Es gewinnt der Spieler, der als letztes noch Spielfiguren auf dem Spielfeld hat.
+Es gewinnt der Mitspieler, der als letztes noch Spielfiguren auf dem Spielfeld hat.
 
 == Und die Verlierer?
 
-Jeder Spieler ohne Spielfiguren auf dem Spielfeld hat leider verloren.
+Jeder Mitspieler ohne Spielfiguren auf dem Spielfeld hat leider verloren.
 Er darf zum Trost eine Limonade trinken.
