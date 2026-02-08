@@ -188,7 +188,7 @@ Wenn der Spieler fertig ist mit seiner Spielfigur, muss er ihre Karte drehen, um
 #align(
   center,
   image(
-    "tappen.svg",
+    "abbildungen/tappen.svg",
     width: 60%,
   ),
 )
