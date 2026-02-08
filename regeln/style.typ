@@ -1,3 +1,5 @@
+#let _font_color = rgb("#2b779dff")
+
 #let apply(doc) = [
   #set text(
     font: "Noto Sans",
@@ -18,7 +20,7 @@
       font: heading_font,
       size: 22pt,
       weight: "bold",
-      fill: rgb("#2b779dff"),
+      fill: _font_color,
     )
     block(
       [
@@ -27,7 +29,7 @@
         #line(
           length: 100%,
           stroke: (
-            paint: gradient.linear(rgb("#2b779dff"), white),
+            paint: gradient.linear(_font_color, white),
             thickness: 3pt,
             cap: "round",
           ),
@@ -42,7 +44,7 @@
       font: heading_font,
       size: 14pt,
       weight: "bold",
-      fill: rgb("#2b779dff"),
+      fill: _font_color,
     )
     block(
       [
@@ -51,7 +53,7 @@
         #line(
           length: 100%,
           stroke: (
-            paint: gradient.linear(rgb("#2b779dff"), white),
+            paint: gradient.linear(_font_color, white),
             thickness: 1pt,
             cap: "round",
           ),
@@ -66,7 +68,7 @@
       font: heading_font,
       size: 12pt,
       weight: "bold",
-      fill: rgb("#2b779dff"),
+      fill: _font_color,
     )
     block(smallcaps(it.body))
   }
