@@ -1,4 +1,5 @@
 #let font_color = rgb("#2b779dff")
+#let action_color = rgb("#d3f1fd")
 
 #let apply(doc) = [
   #set text(

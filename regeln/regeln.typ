@@ -156,7 +156,8 @@ Außerdem kann er jede ihrer Fund-Ausrüstung einfach so verwenden.
 
     Wenn sich die Spielfigur in Wald oder Gebüsch befindet, kann sie sich nur 5cm weit bewegen.
   ],
-  fill: luma(230),
+  fill: style.action_color,
+  stroke: black,
   inset: 10pt,
   radius: 10pt,
   breakable: false,
@@ -177,7 +178,8 @@ Außerdem kann er jede ihrer Fund-Ausrüstung einfach so verwenden.
     Wenn alle 5 Wassertropfen markiert sind, ist die Spielfigur klitschenass und muss das Spielfeld verlassen.
     Ihre Fund-Ausrüstung lässt sie dabei an Ort und Stelle fallen.
   ],
-  fill: luma(230),
+  fill: style.action_color,
+  stroke: black,
   inset: 10pt,
   radius: 10pt,
   breakable: false,
