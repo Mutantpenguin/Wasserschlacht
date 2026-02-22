@@ -110,6 +110,9 @@ Fund-Ausrüstung darf aber jederzeit auch einfach fallen gelassen werden, so das
 == Spielfläche aufbauen
 
 Als Spielfläche wird ein Tisch (oder Fußboden) benötigt, der ungefähr 1m \* 1m groß sein sollte.
+Wenn du weniger Platz hast ist das egal.
+Probiere es einfach damit!
+
 Außerdem muss auf der Spielfläche ganz viel Gelände aufgebaut werden.
 Dies kann extra hierfür gebastelt, oder einfach aus LEGO oder DUPLO gebaut werden.
 Je mehr und je bunter, umso besser.
@@ -126,8 +129,15 @@ Jeder Mitspieler sucht sich eine Spielfelseite aus.
 Wenn Ihr Euch nicht einigen könnt wer wo anfängt, müsst Ihr das mit Schnick-Schnack-Schnuck bestimmen.
 Wichtig ist, dass auf jeder Spielfeldseite nur 1 Mitspieler ist!
 
+Wenn Ihr zu zweit spielt, solltet ihr gegenüber voneinander starten.
+
 Die Spielfiguren werden am Rand des Spielfeldes aufgestellt.
 Dabei muss darauf geachtet werden, links und rechts 15cm Platz zu lassen.
+
+#align(
+  center,
+  image("abbildungen/spielfiguren_aufstellen.svg", width: 80%),
+)
 
 == Fund-Ausrüstung verteilen
 
