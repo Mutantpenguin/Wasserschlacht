@@ -218,3 +218,15 @@ Es gewinnt der Mitspieler, der als letztes noch Spielfiguren auf dem Spielfeld h
 
 Jeder Mitspieler ohne Spielfiguren auf dem Spielfeld hat leider verloren.
 Er darf zum Trost eine Limonade trinken.
+
+#pagebreak()
+
+#set page(columns: 1)
+= Marker
+
+Diese Marker kannst du ausdrucken und ausschneiden.
+Wenn du möchtest, kannst du aber natürlich auch selber welche malen!
+
+#v(3em)
+
+#include "token.typ"
