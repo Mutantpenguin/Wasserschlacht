@@ -1,5 +1,5 @@
-#import "style.typ" as style
-#import "items.typ" as items
+#import "_style.typ" as style
+#import "_items.typ" as items
 
 #show: style.apply
 

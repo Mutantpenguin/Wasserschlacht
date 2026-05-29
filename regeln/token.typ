@@ -1,4 +1,4 @@
-#import "items.typ"
+#import "_items.typ" as items
 
 #let circle_diameter = 1.5cm
 
