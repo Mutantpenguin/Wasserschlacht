@@ -51,7 +51,7 @@ Wer klitschenass ist muss nach Hause gehen und hat verloren!
   Achtet darauf, dass jeder Mitspieler genau gleich viele Spielfiguren hat.
   Wenn Ihr zum ersten mal spielt solltet Ihr jeder nur 1 Spielfigur nehmen.
 
-- Für jede Eurer Spielfiguren benötigt Ihr noch eine Karte um ihren Namen aufzuschreiben, die Ausrüstung zu sammeln und einzukreisen, wie naß sie bereits geworden ist.
+- Für jede Eurer Spielfiguren benötigt Ihr noch eine Karte um ihren Namen aufzuschreiben, die Ausrüstung zu sammeln und zu markieren, wie naß sie bereits geworden ist.
   #align(
     center,
     image(
