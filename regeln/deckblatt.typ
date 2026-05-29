@@ -5,7 +5,7 @@
   clearance: 2em,
 )[
   #image(
-    "../logo.svg",
+    "abbildungen/logo.svg",
     width: 90%,
   )
 ]
